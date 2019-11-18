@@ -1,12 +1,14 @@
 /* Site Styles Go Here */
-.float-left {
-    display: flexbox;
-    float: left;
-    color: white
+
+/* footer */
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.float-right {
-    display: flexbox;
-    float: right;
-    color: white;
+.footer-item-flex {
+    flex: 0 1 auto;
+    color: white
 }
